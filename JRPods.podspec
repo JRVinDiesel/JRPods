@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "JRPods"
-  s.version      = "1.0.0"
+  s.version      = “1.0.1”
   s.summary      = "A JRPods to use ourself"
 
   s.homepage     = "https://github.com/JRVinDiesel/JRPods"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/JRVinDiesel/JRPods.git", :tag => s.version }
 
-  s.source_files  = "JRPods/JRPodsHeaderFiles.h"
+  s.source_files  = "JRPods/*”
 
   s.public_header_files = "JRPods/JRPodsHeaderFiles.h"
 
